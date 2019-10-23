@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    margin:0;
+    height: 100vh;
+    background: no-repeat center;
+    background-size: cover;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.weather{
+    align-self: flex-end;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+#temp{
+    text-align: 40px;
+}
+
+#dateTime{
+    font-size: 2rem;
+}
+
+#quote{
+    text-align: center;
+}
+
+#quoteAuthor{
+    font-style: italic;
+}
